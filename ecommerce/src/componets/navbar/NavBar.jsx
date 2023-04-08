@@ -19,7 +19,7 @@ export const Navbar = () => {
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Link
+                  Juegos en linea 
                 </a>
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#">Action</a></li>
@@ -29,11 +29,15 @@ export const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled">Link</a>
+                <a className="nav-link disabled">juegos</a>
               </li>
             </ul>
-            <CartWidget cantCarrito={0}/>
+            
           </div>
+        </div>
+        <div>
+          <h1>navbar</h1>
+        <CartWidget cantCarrito={0}/>
         </div>
       </nav>
 
